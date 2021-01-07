@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C9D72A39-2576-0ACA-721C-7A7B732AC19F" name="Payment">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-06 17:56:28 UTC</createdTime>
+<generatorID>67571903-1E07-C962-33E3-9CA5ED8CB132</generatorID>
+<ownerDesignName>schema</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="payment_id" id="2976FFA1-EB41-6C02-655A-57263E23920C">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-06 17:56:28 UTC</createdTime>
+<generatorID>F9ED9D4C-B535-07A1-8FD3-61246790BCEB</generatorID>
+<ownerDesignName>schema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="8E148089-C975-3027-5BE7-97FF5B5E7DA6">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-06 17:56:28 UTC</createdTime>
+<generatorID>7DD5C9D5-D5DA-7B87-7EFB-A1D20A822628</generatorID>
+<ownerDesignName>schema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="payment_dateTime" id="4E01805B-A404-A25C-2782-7279B9A89D23">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-06 17:56:28 UTC</createdTime>
+<generatorID>DC4201F7-863E-6060-A173-3D6B1B261E87</generatorID>
+<ownerDesignName>schema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="payment_type" id="56EA370E-6E2F-9F1A-1D57-A103D06B1450">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-06 17:56:28 UTC</createdTime>
+<generatorID>08590ED6-E70D-3B92-C8FC-A1C07E8D7E46</generatorID>
+<ownerDesignName>schema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="resv_id" id="FC70DF31-AB8C-230C-E446-2E24D0254D49">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-06 17:56:28 UTC</createdTime>
+<generatorID>D4CCED8B-C1E7-18A8-1A8F-DE0CE498C3F0</generatorID>
+<ownerDesignName>schema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F493E6F9-7985-156D-262C-AEE171E244ED" referredColumn="2BA86750-57FA-1F65-7560-652FF0935AC9"/>
+</associations>
+</Column>
+<Column name="cust_id" id="26FF4403-FF4B-3B7B-00D2-E7DF67301C84">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-06 17:56:28 UTC</createdTime>
+<generatorID>ED1928E4-C320-5A00-1CFE-433712EEF9C9</generatorID>
+<ownerDesignName>schema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DA0D1215-98ED-119A-0F81-6B6E2271B7FD" referredColumn="C070016B-D8DB-282C-47BD-2EAD3564B368"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1D7B8DD6-8D7C-62B6-4796-2E9946E93547" name="Payment_PK">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-06 17:56:28 UTC</createdTime>
+<generatorID>CA0930E0-2EAE-4E90-ECAB-9D65ECFCFF33</generatorID>
+<ownerDesignName>schema</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2976FFA1-EB41-6C02-655A-57263E23920C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5335F930-4992-4E84-89E9-A145EFBC4AA9" name="Payment__IDX">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-06 17:56:28 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>DE56BD66-7A82-AAD6-672F-D54CD0F5CAC8</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="FC70DF31-AB8C-230C-E446-2E24D0254D49"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EF19A82D-92FF-6283-7033-D213D9AB091A" name="Payment_Customer_FK">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-06 17:56:28 UTC</createdTime>
+<generatorID>24C44DFF-AABB-9799-70EA-8F06F7FAD97E</generatorID>
+<ownerDesignName>schema</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26FF4403-FF4B-3B7B-00D2-E7DF67301C84"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8A326569-9321-1BA5-87E2-22083B87498E" name="Payment_Reservation_FK">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-06 17:56:28 UTC</createdTime>
+<generatorID>DE56BD66-7A82-AAD6-672F-D54CD0F5CAC8</generatorID>
+<ownerDesignName>schema</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC70DF31-AB8C-230C-E446-2E24D0254D49"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

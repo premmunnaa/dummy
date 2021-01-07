@@ -1,0 +1,160 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="70A4A93D-1811-ED96-68AD-578195E4AF38" name="Bus Details">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-01 12:07:25 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<engineerTo>
+<item key="3ADD129F-6616-B0DA-EF98-14A152DB94F5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="bus id" id="FEAB2D5E-0309-34AB-59F2-367406578803">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-01 12:07:46 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<engineerTo>
+<item key="3ADD129F-6616-B0DA-EF98-14A152DB94F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bus name" id="DF46CE5D-6739-5E78-BEB2-5E8E5757389A">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-01 12:08:00 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<engineerTo>
+<item key="3ADD129F-6616-B0DA-EF98-14A152DB94F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="type" id="146709DB-36BD-3CA5-4AA0-313AF3B676FD">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-01 12:08:18 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<engineerTo>
+<item key="3ADD129F-6616-B0DA-EF98-14A152DB94F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="total seats" id="754ABE74-8B48-EF40-73C0-E46BCBBEC805">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-01 12:08:48 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<engineerTo>
+<item key="3ADD129F-6616-B0DA-EF98-14A152DB94F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="seats per row" id="30B79040-E077-8E5E-977D-F34B4F771907">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-01 12:09:05 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<engineerTo>
+<item key="3ADD129F-6616-B0DA-EF98-14A152DB94F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="has tv" id="47DE1908-C00E-37F5-77C0-5944D409279B">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-01 12:09:29 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<engineerTo>
+<item key="3ADD129F-6616-B0DA-EF98-14A152DB94F5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="has ac" id="01B214F5-83D2-4DA1-0932-B96F28BB89DA">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-01 12:10:31 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<engineerTo>
+<item key="3ADD129F-6616-B0DA-EF98-14A152DB94F5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="has meal" id="47C0807D-B310-FAFC-E87B-A7A4CB0C27C8">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-01 12:10:45 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<engineerTo>
+<item key="3ADD129F-6616-B0DA-EF98-14A152DB94F5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="has coach" id="C4D27B51-793C-7A9C-1323-495B1E79673B">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-01 12:11:14 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<engineerTo>
+<item key="3ADD129F-6616-B0DA-EF98-14A152DB94F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status" id="CDB516BD-B5EE-1F9B-1CDB-35166DCA3235">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-01 12:11:38 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<engineerTo>
+<item key="3ADD129F-6616-B0DA-EF98-14A152DB94F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B654EC4A-72B4-693F-1A16-6A48601939E5" name="Bus_Details_PK">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-01 12:07:57 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="3ADD129F-6616-B0DA-EF98-14A152DB94F5" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FEAB2D5E-0309-34AB-59F2-367406578803</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

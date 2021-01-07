@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2B9B28AD-B566-4D0E-CC61-D671633DCDF4" name="Seat_Details">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-06 17:56:28 UTC</createdTime>
+<generatorID>225F5740-5018-25B9-8436-C52A18E6A875</generatorID>
+<ownerDesignName>schema</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="seat_num" id="40179D52-86D0-DF80-4137-AEFC70D3509E">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-06 17:56:28 UTC</createdTime>
+<generatorID>F8A260FA-6871-53BC-06D4-3A7198DCCD78</generatorID>
+<ownerDesignName>schema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="passenger_name" id="E8BA7C15-18D9-BF71-4FD8-571053DE00CB">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-06 17:56:28 UTC</createdTime>
+<generatorID>86CEF6FE-CA71-EFEC-B746-FAE8A4DF7A49</generatorID>
+<ownerDesignName>schema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="passenger_age" id="17DDEAA2-3A31-7A33-B36F-6E56882BB70A">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-06 17:56:28 UTC</createdTime>
+<generatorID>F3B02E27-97F7-B03D-D1B5-7F7733C0CD4C</generatorID>
+<ownerDesignName>schema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="resv_id" id="D280B309-41B0-C317-C236-2671D9B8A9DB">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-06 17:56:28 UTC</createdTime>
+<generatorID>B57FB948-BA36-8EF5-F505-A4F8F02BDA20</generatorID>
+<ownerDesignName>schema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="27B9082F-451F-A745-F820-A65036C0E5F8" referredColumn="2BA86750-57FA-1F65-7560-652FF0935AC9"/>
+</associations>
+</Column>
+<Column name="id" id="2B5BF904-AA30-B6BB-033E-379631D8C85C">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-06 18:09:17 UTC</createdTime>
+<generatorID>118EC8F0-AD04-0742-9771-9F84F8BC08AA</generatorID>
+<ownerDesignName>schema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Reservation_resv_id" id="C5622255-A7E9-092A-E0D5-1FB94744FA2B">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-06 18:13:58 UTC</createdTime>
+<generatorID>BA0540ED-3670-37CE-214D-B3C006E8245D</generatorID>
+<ownerDesignName>schema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DED29FFD-C94D-1206-9051-1C39ADE8D374" referredColumn="2BA86750-57FA-1F65-7560-652FF0935AC9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F17D011F-834B-64B0-D905-49C3F44AA392" name="Seat_Details_PK">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-06 17:56:28 UTC</createdTime>
+<generatorID>B8448A92-B79B-BB3E-4391-4078BC3466FC</generatorID>
+<ownerDesignName>schema</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2B5BF904-AA30-B6BB-033E-379631D8C85C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7D47C7A6-613F-7E37-25A4-0ACA373E9F9B" name="Seat_Details_Reservation_FK">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-06 17:56:28 UTC</createdTime>
+<generatorID>07DB994B-8BA4-02D8-497E-4BEE6674ABBD</generatorID>
+<ownerDesignName>schema</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D280B309-41B0-C317-C236-2671D9B8A9DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D7589ED5-9727-581F-B197-173DAA0638A9" name="Seat_Details_Reservation_FKv2">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-06 18:13:58 UTC</createdTime>
+<generatorID>1D9E0975-347D-999A-6296-22F76FEA30D9</generatorID>
+<ownerDesignName>schema</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C5622255-A7E9-092A-E0D5-1FB94744FA2B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

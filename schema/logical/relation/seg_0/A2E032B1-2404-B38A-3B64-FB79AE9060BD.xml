@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Trip Details Bus Details FK" directorySegmentName="seg_0" id="A2E032B1-2404-B38A-3B64-FB79AE9060BD">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-01 12:16:17 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<engineerTo>
+<item key="3ADD129F-6616-B0DA-EF98-14A152DB94F5" value="true"/>
+</engineerTo>
+<sourcePk>B654EC4A-72B4-693F-1A16-6A48601939E5</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>70A4A93D-1811-ED96-68AD-578195E4AF38</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9BC3D48D-7B2D-181E-781C-5378EE9A74EE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

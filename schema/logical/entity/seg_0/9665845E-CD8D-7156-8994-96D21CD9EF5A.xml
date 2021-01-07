@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9665845E-CD8D-7156-8994-96D21CD9EF5A" name="Customer">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-01 12:04:24 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<engineerTo>
+<item key="3ADD129F-6616-B0DA-EF98-14A152DB94F5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cust id" id="C01A6571-3DB9-065A-F86F-F59AA89D27C6">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-01 12:04:32 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<engineerTo>
+<item key="3ADD129F-6616-B0DA-EF98-14A152DB94F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="first name" id="F98A35D2-7D6F-5EDE-6D87-CDBD8E7825E7">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-01 12:05:05 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<engineerTo>
+<item key="3ADD129F-6616-B0DA-EF98-14A152DB94F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="last name" id="3677E683-E56F-5D93-2982-E83AC65EE499">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-06 17:18:18 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<engineerTo>
+<item key="3ADD129F-6616-B0DA-EF98-14A152DB94F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="gender" id="2086C981-2B54-E583-42FE-035548F727EC">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-06 17:19:06 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<engineerTo>
+<item key="3ADD129F-6616-B0DA-EF98-14A152DB94F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="D3841831-75E6-EBF8-9B40-B7CD6E738F39">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-01 12:06:12 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<engineerTo>
+<item key="3ADD129F-6616-B0DA-EF98-14A152DB94F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="password" id="470F3259-6F1C-C3F6-F432-55F5E8BC77C3">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-01 12:06:30 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<engineerTo>
+<item key="3ADD129F-6616-B0DA-EF98-14A152DB94F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="contact no" id="4A357BF7-95F1-4FEA-2EC7-FC8F4C01B435">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-06 17:19:48 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<engineerTo>
+<item key="3ADD129F-6616-B0DA-EF98-14A152DB94F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="registered" id="790DDF99-9100-F261-F7DE-3D6F3CD3274F">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-06 17:20:15 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<engineerTo>
+<item key="3ADD129F-6616-B0DA-EF98-14A152DB94F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="walllet amount" id="D1254DC6-DBE1-6199-F5B8-864BC9F00960">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-06 17:20:51 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<engineerTo>
+<item key="3ADD129F-6616-B0DA-EF98-14A152DB94F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AA34B866-C840-CE4E-CFFB-EEFA5CC4CE28" name="Customer PK">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-01 12:04:43 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="3ADD129F-6616-B0DA-EF98-14A152DB94F5" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C01A6571-3DB9-065A-F86F-F59AA89D27C6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

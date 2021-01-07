@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F051F710-241F-884C-BF12-4769702526A3" name="Bus_Details">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-01 12:17:45 UTC</createdTime>
+<generatorID>70A4A93D-1811-ED96-68AD-578195E4AF38</generatorID>
+<ownerDesignName>schema</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="bus_id" id="A5B3932B-D69C-5882-FD9D-6B8765E79D13">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-01 12:17:45 UTC</createdTime>
+<generatorID>FEAB2D5E-0309-34AB-59F2-367406578803</generatorID>
+<ownerDesignName>schema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bus_name" id="909FE1CE-0ACB-48E2-5083-A2982F9D9B05">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-01 12:17:45 UTC</createdTime>
+<generatorID>DF46CE5D-6739-5E78-BEB2-5E8E5757389A</generatorID>
+<ownerDesignName>schema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="type" id="EE810609-39BE-80D5-654E-19BC52A8ACF0">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-01 12:17:45 UTC</createdTime>
+<generatorID>146709DB-36BD-3CA5-4AA0-313AF3B676FD</generatorID>
+<ownerDesignName>schema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="total_seats" id="23FBD3AA-1FD9-6CE0-9581-B65A364D6A53">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-01 12:17:45 UTC</createdTime>
+<generatorID>754ABE74-8B48-EF40-73C0-E46BCBBEC805</generatorID>
+<ownerDesignName>schema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="seats_per_row" id="8BB88B55-0A0E-65A5-3A77-3B67FEF73B31">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-01 12:17:45 UTC</createdTime>
+<generatorID>30B79040-E077-8E5E-977D-F34B4F771907</generatorID>
+<ownerDesignName>schema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="has_tv" id="0FD1536B-B353-36C2-9002-BFF8F14F05E0">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-01 12:17:45 UTC</createdTime>
+<generatorID>47DE1908-C00E-37F5-77C0-5944D409279B</generatorID>
+<ownerDesignName>schema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="has_ac" id="46969E3D-91CF-9A54-E7B6-329A116AF32D">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-01 12:17:45 UTC</createdTime>
+<generatorID>01B214F5-83D2-4DA1-0932-B96F28BB89DA</generatorID>
+<ownerDesignName>schema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="has_meal" id="4A3A0178-6E11-2B44-7931-3BE82FA8ED6D">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-01 12:17:45 UTC</createdTime>
+<generatorID>47C0807D-B310-FAFC-E87B-A7A4CB0C27C8</generatorID>
+<ownerDesignName>schema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="has_coach" id="55B49374-9A2D-D379-028E-78540FFD47C3">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-01 12:17:45 UTC</createdTime>
+<generatorID>C4D27B51-793C-7A9C-1323-495B1E79673B</generatorID>
+<ownerDesignName>schema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="829FF65C-90A0-BA23-D78A-8F006BF69439">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-01 12:17:45 UTC</createdTime>
+<generatorID>CDB516BD-B5EE-1F9B-1CDB-35166DCA3235</generatorID>
+<ownerDesignName>schema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F5D1A2FB-0C6B-B2CC-2D53-C1D4452E45DB" name="Bus_Details_PK">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-01 12:17:45 UTC</createdTime>
+<generatorID>B654EC4A-72B4-693F-1A16-6A48601939E5</generatorID>
+<ownerDesignName>schema</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5B3932B-D69C-5882-FD9D-6B8765E79D13"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

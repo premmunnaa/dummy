@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="49BC62E8-30AF-ADB3-6ED8-3A5ABCE1A723" name="Customer">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-01 12:17:45 UTC</createdTime>
+<generatorID>9665845E-CD8D-7156-8994-96D21CD9EF5A</generatorID>
+<ownerDesignName>schema</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cust_id" id="C070016B-D8DB-282C-47BD-2EAD3564B368">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-01 12:17:45 UTC</createdTime>
+<generatorID>C01A6571-3DB9-065A-F86F-F59AA89D27C6</generatorID>
+<ownerDesignName>schema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="first_name" id="5F730D73-607A-CEF1-90DC-204421719C6E">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-01 12:17:45 UTC</createdTime>
+<generatorID>F98A35D2-7D6F-5EDE-6D87-CDBD8E7825E7</generatorID>
+<ownerDesignName>schema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="339BE6BE-9304-ED17-FB05-F40275BD2297">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-01 12:17:45 UTC</createdTime>
+<generatorID>D3841831-75E6-EBF8-9B40-B7CD6E738F39</generatorID>
+<ownerDesignName>schema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="password" id="7548D6CB-6F6D-D981-7F03-6F774068B87E">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-01 12:17:45 UTC</createdTime>
+<generatorID>470F3259-6F1C-C3F6-F432-55F5E8BC77C3</generatorID>
+<ownerDesignName>schema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="last_name" id="2A801C84-1A50-8B78-09BE-58E09AEEF651">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-06 17:22:34 UTC</createdTime>
+<generatorID>3677E683-E56F-5D93-2982-E83AC65EE499</generatorID>
+<ownerDesignName>schema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gender" id="BD6FD4D6-CABF-6655-2F41-BE3B1D44937D">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-06 17:22:34 UTC</createdTime>
+<generatorID>2086C981-2B54-E583-42FE-035548F727EC</generatorID>
+<ownerDesignName>schema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="contact_no" id="15B74A91-7986-5F15-AF58-5E67990CBCF3">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-06 17:22:34 UTC</createdTime>
+<generatorID>4A357BF7-95F1-4FEA-2EC7-FC8F4C01B435</generatorID>
+<ownerDesignName>schema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="registered" id="6FC83315-62B2-0B60-3512-7A6A0BC91613">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-06 17:22:34 UTC</createdTime>
+<generatorID>790DDF99-9100-F261-F7DE-3D6F3CD3274F</generatorID>
+<ownerDesignName>schema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="walllet_amount" id="EAA6B412-B951-5E6C-33DB-A7CBB70A0D05">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-06 17:22:34 UTC</createdTime>
+<generatorID>D1254DC6-DBE1-6199-F5B8-864BC9F00960</generatorID>
+<ownerDesignName>schema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C59426AC-8372-83E1-5CC0-27A1AFC9B73B" name="Customer_PK">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-01 12:17:45 UTC</createdTime>
+<generatorID>AA34B866-C840-CE4E-CFFB-EEFA5CC4CE28</generatorID>
+<ownerDesignName>schema</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C070016B-D8DB-282C-47BD-2EAD3564B368"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

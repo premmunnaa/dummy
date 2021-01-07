@@ -1,0 +1,167 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="341C2445-611C-790D-34D9-3F2CD3E8C7AB" name="Trip_Details">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-01 12:17:45 UTC</createdTime>
+<generatorID>9BC3D48D-7B2D-181E-781C-5378EE9A74EE</generatorID>
+<ownerDesignName>schema</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="trip_id" id="9DDAF292-65B4-46AA-5812-FE0F2D00297C">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-01 12:17:45 UTC</createdTime>
+<generatorID>3ADBD27D-C210-DA96-B0A9-4925155B0555</generatorID>
+<ownerDesignName>schema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bus_id" id="D28EA034-B820-F7D8-26F7-DFB066C9630A">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-01 12:17:45 UTC</createdTime>
+<generatorID>D7B864C1-4A1D-C04F-59A3-291A25D47C76</generatorID>
+<ownerDesignName>schema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1CB01607-A47A-C2DC-AF4B-6462675E590A" referredColumn="A5B3932B-D69C-5882-FD9D-6B8765E79D13"/>
+</associations>
+</Column>
+<Column name="from" id="0E75B382-47EB-4987-47A6-F5E8FD077928">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-01 12:17:45 UTC</createdTime>
+<generatorID>034D01C8-7CDB-1EBB-A703-F46448E34932</generatorID>
+<ownerDesignName>schema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="to" id="1C295423-BAE8-29C6-1D6A-4FC3525DB20A">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-01 12:17:45 UTC</createdTime>
+<generatorID>E18AA8CE-D4FE-F5CC-56AB-4179F5C8EE8B</generatorID>
+<ownerDesignName>schema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="depature_date" id="484D28F5-D24E-9B5C-5E00-A552C8F73E27">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-01 12:17:45 UTC</createdTime>
+<generatorID>919EA0BF-544E-A854-746D-EEAF5F26FB4D</generatorID>
+<ownerDesignName>schema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="depature_time" id="85B33D16-C83D-0B30-1ADD-A28F0055C63C">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-01 12:17:45 UTC</createdTime>
+<generatorID>EA304915-763C-EF34-86D5-F76EF54691A4</generatorID>
+<ownerDesignName>schema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="travel_duration" id="D754A8BE-B51B-AB3D-B53D-16F5D9253D88">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-01 12:17:45 UTC</createdTime>
+<generatorID>A1F83155-A51D-D427-01DE-2D5A68E2B23E</generatorID>
+<ownerDesignName>schema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="seats_available" id="D2379C26-D1F7-DF50-919E-888B0EF5CD9D">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-01 12:17:45 UTC</createdTime>
+<generatorID>B190C06A-7ECC-3173-8CEE-3DB381E44666</generatorID>
+<ownerDesignName>schema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="price" id="AB60F731-8DB4-D720-A3CB-25DE7B8ED5A3">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-05 14:42:53 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Driver_driver_id" id="BA24E693-9E89-F987-47B2-7C3E6682E4DA">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-06 17:38:25 UTC</createdTime>
+<generatorID>E7429ACE-D8EA-8BFF-7AEA-4CCEE76DC204</generatorID>
+<ownerDesignName>schema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="79160297-157A-FD54-9CAA-936EEE110354" referredColumn="BC62D09E-F709-6355-78F3-774E3C4ECFB8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="27F93B6C-530B-6444-89AD-1A07900F4A2D" name="Trip_Details_PK">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-01 12:17:45 UTC</createdTime>
+<generatorID>E9564375-6FE1-4271-A7AA-BBC7D327666C</generatorID>
+<ownerDesignName>schema</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9DDAF292-65B4-46AA-5812-FE0F2D00297C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3915A545-90DD-4B21-23D8-778A4EEB2EAF" name="Trip_Details_Bus_Details_FK">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-01 12:17:45 UTC</createdTime>
+<generatorID>A2E032B1-2404-B38A-3B64-FB79AE9060BD</generatorID>
+<ownerDesignName>schema</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D28EA034-B820-F7D8-26F7-DFB066C9630A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8DE15A13-55FE-E14D-6644-3EBA7ED3B173" name="Trip_Details_Driver_FK">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-06 17:38:25 UTC</createdTime>
+<generatorID>92EA0E46-B688-A554-4B14-0F741D0A3123</generatorID>
+<ownerDesignName>schema</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA24E693-9E89-F987-47B2-7C3E6682E4DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

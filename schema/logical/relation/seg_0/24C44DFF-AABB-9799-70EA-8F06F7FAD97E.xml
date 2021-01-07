@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Payment Customer FK" directorySegmentName="seg_0" id="24C44DFF-AABB-9799-70EA-8F06F7FAD97E">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-06 17:56:05 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<engineerTo>
+<item key="3ADD129F-6616-B0DA-EF98-14A152DB94F5" value="true"/>
+</engineerTo>
+<sourcePk>AA34B866-C840-CE4E-CFFB-EEFA5CC4CE28</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9665845E-CD8D-7156-8994-96D21CD9EF5A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>67571903-1E07-C962-33E3-9CA5ED8CB132</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

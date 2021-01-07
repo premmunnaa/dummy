@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="225F5740-5018-25B9-8436-C52A18E6A875" name="Seat Details">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-06 17:46:29 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<engineerTo>
+<item key="3ADD129F-6616-B0DA-EF98-14A152DB94F5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="seat num" id="F8A260FA-6871-53BC-06D4-3A7198DCCD78">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-06 17:46:52 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<engineerTo>
+<item key="3ADD129F-6616-B0DA-EF98-14A152DB94F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="passenger name" id="86CEF6FE-CA71-EFEC-B746-FAE8A4DF7A49">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-06 17:47:30 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<engineerTo>
+<item key="3ADD129F-6616-B0DA-EF98-14A152DB94F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="passenger age" id="F3B02E27-97F7-B03D-D1B5-7F7733C0CD4C">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-06 17:47:51 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<engineerTo>
+<item key="3ADD129F-6616-B0DA-EF98-14A152DB94F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="resv id" id="BA0540ED-3670-37CE-214D-B3C006E8245D">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-06 18:05:50 UTC</createdTime>
+<generatorID>1D9E0975-347D-999A-6296-22F76FEA30D9</generatorID>
+<ownerDesignName>schema</ownerDesignName>
+<engineerTo>
+<item key="3ADD129F-6616-B0DA-EF98-14A152DB94F5" value="true"/>
+</engineerTo>
+<referedAttribute>8BF06C51-7622-6409-8ED7-8B9310495C38</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="118EC8F0-AD04-0742-9771-9F84F8BC08AA">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-06 18:08:32 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<engineerTo>
+<item key="3ADD129F-6616-B0DA-EF98-14A152DB94F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B8448A92-B79B-BB3E-4391-4078BC3466FC" name="Seat_Details_PK">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-06 17:48:30 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<engineerTo>
+<item key="3ADD129F-6616-B0DA-EF98-14A152DB94F5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>118EC8F0-AD04-0742-9771-9F84F8BC08AA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

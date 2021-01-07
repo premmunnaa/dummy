@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Reservation Customer FK" directorySegmentName="seg_0" id="C051029F-86B0-5937-89B9-2C9A969E56FC">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-06 17:46:03 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<engineerTo>
+<item key="3ADD129F-6616-B0DA-EF98-14A152DB94F5" value="true"/>
+</engineerTo>
+<sourcePk>AA34B866-C840-CE4E-CFFB-EEFA5CC4CE28</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9665845E-CD8D-7156-8994-96D21CD9EF5A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7A4875D1-050F-A3F2-1026-3554B0D65D48</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

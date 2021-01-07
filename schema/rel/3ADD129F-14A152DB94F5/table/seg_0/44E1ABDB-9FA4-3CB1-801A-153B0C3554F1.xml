@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="44E1ABDB-9FA4-3CB1-801A-153B0C3554F1" name="Card_Details">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-06 18:13:58 UTC</createdTime>
+<generatorID>53C596AF-E6D9-844F-AF17-FBB06DF8879B</generatorID>
+<ownerDesignName>schema</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="amount" id="593A2AE6-B4C2-0884-84CB-EDA23664ACEF">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-06 18:13:58 UTC</createdTime>
+<generatorID>2705556A-1ABD-2FB6-8927-0531227203AB</generatorID>
+<ownerDesignName>schema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="card_no" id="DEA96111-C070-97EC-8B0E-2868FD20AC66">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-06 18:13:58 UTC</createdTime>
+<generatorID>18622FE8-8A57-E921-862F-6B6D5B71A542</generatorID>
+<ownerDesignName>schema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id" id="B18FC31B-B985-BAA1-3CE9-5008E102236C">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-06 18:13:58 UTC</createdTime>
+<generatorID>F1558CCF-D46A-823E-E034-3877031B1DA9</generatorID>
+<ownerDesignName>schema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cust_id" id="D1D1E4A8-4BBA-B118-7396-8E1E8DE3ACA9">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-06 18:13:58 UTC</createdTime>
+<generatorID>C7C66E86-B937-A403-CFD7-D952E965FEC4</generatorID>
+<ownerDesignName>schema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F1843A62-B2C0-D7F0-1BE7-9440C50C3957" referredColumn="C070016B-D8DB-282C-47BD-2EAD3564B368"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="310E59EB-737E-0A67-43A2-BDB38E2C34D9" name="Card_Details_PK">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-06 18:13:58 UTC</createdTime>
+<generatorID>9EA8600F-4EA6-D9F2-A2FA-C27EA8F933AD</generatorID>
+<ownerDesignName>schema</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B18FC31B-B985-BAA1-3CE9-5008E102236C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0059F07D-8988-BFF5-CFED-E6DF6A2B46F5" name="Card_Details_Customer_FK">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-06 18:13:58 UTC</createdTime>
+<generatorID>7F47861C-5ED3-9D73-845E-EA26587FD41B</generatorID>
+<ownerDesignName>schema</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D1D1E4A8-4BBA-B118-7396-8E1E8DE3ACA9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

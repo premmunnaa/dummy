@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="21720DA2-85CA-BE7B-6D31-C4A3E314F536" name="Schedule">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-05 14:15:29 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<engineerTo>
+<item key="3ADD129F-6616-B0DA-EF98-14A152DB94F5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="E79AD5F0-F006-EC90-E121-6C70597C490B">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-05 14:15:38 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<engineerTo>
+<item key="3ADD129F-6616-B0DA-EF98-14A152DB94F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="trip id" id="6C846586-1910-94B5-67FE-EBBD9B8D85D6">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-05 14:17:14 UTC</createdTime>
+<generatorID>02CD446F-3B04-E486-2049-4C9B4666D3E1</generatorID>
+<ownerDesignName>schema</ownerDesignName>
+<engineerTo>
+<item key="3ADD129F-6616-B0DA-EF98-14A152DB94F5" value="true"/>
+</engineerTo>
+<referedAttribute>3ADBD27D-C210-DA96-B0A9-4925155B0555</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="stop name" id="29DAFB1B-DD6D-9B51-FF54-A9D891A0C27B">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-05 14:23:57 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<engineerTo>
+<item key="3ADD129F-6616-B0DA-EF98-14A152DB94F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="stop time" id="178BA3A3-FA39-A9E3-EEEA-F48306453BAC">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-05 14:24:29 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<engineerTo>
+<item key="3ADD129F-6616-B0DA-EF98-14A152DB94F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="stop type" id="E520EDE0-F902-A745-9B25-6A91B2F54EBA">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-05 14:25:04 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<engineerTo>
+<item key="3ADD129F-6616-B0DA-EF98-14A152DB94F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="87C8C9AA-963A-F1CB-8955-362F7AC9D833" name="Schedule PK">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-05 14:16:13 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="3ADD129F-6616-B0DA-EF98-14A152DB94F5" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E79AD5F0-F006-EC90-E121-6C70597C490B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

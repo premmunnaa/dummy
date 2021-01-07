@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="67571903-1E07-C962-33E3-9CA5ED8CB132" name="Payment">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-06 17:49:14 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<engineerTo>
+<item key="3ADD129F-6616-B0DA-EF98-14A152DB94F5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="payment id" id="F9ED9D4C-B535-07A1-8FD3-61246790BCEB">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-06 17:49:24 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<engineerTo>
+<item key="3ADD129F-6616-B0DA-EF98-14A152DB94F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status" id="7DD5C9D5-D5DA-7B87-7EFB-A1D20A822628">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-06 17:49:42 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<engineerTo>
+<item key="3ADD129F-6616-B0DA-EF98-14A152DB94F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="payment dateTime" id="DC4201F7-863E-6060-A173-3D6B1B261E87">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-06 17:50:04 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<engineerTo>
+<item key="3ADD129F-6616-B0DA-EF98-14A152DB94F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="payment type" id="08590ED6-E70D-3B92-C8FC-A1C07E8D7E46">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-06 17:52:40 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<engineerTo>
+<item key="3ADD129F-6616-B0DA-EF98-14A152DB94F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="resv id" id="D4CCED8B-C1E7-18A8-1A8F-DE0CE498C3F0">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-06 17:55:19 UTC</createdTime>
+<generatorID>DE56BD66-7A82-AAD6-672F-D54CD0F5CAC8</generatorID>
+<ownerDesignName>schema</ownerDesignName>
+<engineerTo>
+<item key="3ADD129F-6616-B0DA-EF98-14A152DB94F5" value="true"/>
+</engineerTo>
+<referedAttribute>8BF06C51-7622-6409-8ED7-8B9310495C38</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cust id2" id="ED1928E4-C320-5A00-1CFE-433712EEF9C9">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-06 17:56:05 UTC</createdTime>
+<generatorID>24C44DFF-AABB-9799-70EA-8F06F7FAD97E</generatorID>
+<ownerDesignName>schema</ownerDesignName>
+<engineerTo>
+<item key="3ADD129F-6616-B0DA-EF98-14A152DB94F5" value="true"/>
+</engineerTo>
+<referedAttribute>C01A6571-3DB9-065A-F86F-F59AA89D27C6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CA0930E0-2EAE-4E90-ECAB-9D65ECFCFF33" name="Payment PK">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-06 17:49:38 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="3ADD129F-6616-B0DA-EF98-14A152DB94F5" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F9ED9D4C-B535-07A1-8FD3-61246790BCEB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="53C596AF-E6D9-844F-AF17-FBB06DF8879B" name="Card_Details">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-06 18:11:08 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<engineerTo>
+<item key="3ADD129F-6616-B0DA-EF98-14A152DB94F5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="amount" id="2705556A-1ABD-2FB6-8927-0531227203AB">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-06 18:11:40 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<engineerTo>
+<item key="3ADD129F-6616-B0DA-EF98-14A152DB94F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="card_no" id="18622FE8-8A57-E921-862F-6B6D5B71A542">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-06 18:12:00 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<engineerTo>
+<item key="3ADD129F-6616-B0DA-EF98-14A152DB94F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="F1558CCF-D46A-823E-E034-3877031B1DA9">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-06 18:12:13 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<engineerTo>
+<item key="3ADD129F-6616-B0DA-EF98-14A152DB94F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cust id" id="C7C66E86-B937-A403-CFD7-D952E965FEC4">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-06 18:13:26 UTC</createdTime>
+<generatorID>7F47861C-5ED3-9D73-845E-EA26587FD41B</generatorID>
+<ownerDesignName>schema</ownerDesignName>
+<engineerTo>
+<item key="3ADD129F-6616-B0DA-EF98-14A152DB94F5" value="true"/>
+</engineerTo>
+<referedAttribute>C01A6571-3DB9-065A-F86F-F59AA89D27C6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9EA8600F-4EA6-D9F2-A2FA-C27EA8F933AD" name="Card_Details PK">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-06 18:12:22 UTC</createdTime>
+<ownerDesignName>schema</ownerDesignName>
+<engineerTo>
+<item key="3ADD129F-6616-B0DA-EF98-14A152DB94F5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F1558CCF-D46A-823E-E034-3877031B1DA9</attributeRef>
+<attributeRef>C7C66E86-B937-A403-CFD7-D952E965FEC4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

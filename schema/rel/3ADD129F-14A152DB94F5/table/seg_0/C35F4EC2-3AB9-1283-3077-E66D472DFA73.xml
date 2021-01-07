@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C35F4EC2-3AB9-1283-3077-E66D472DFA73" name="Driver">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-06 17:38:25 UTC</createdTime>
+<generatorID>E606DC6C-9378-F7D6-B3EF-5C8D1183F871</generatorID>
+<ownerDesignName>schema</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="driver_id" id="BC62D09E-F709-6355-78F3-774E3C4ECFB8">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-06 17:38:25 UTC</createdTime>
+<generatorID>888C0BA9-1A16-83B1-9785-9321C8925DC3</generatorID>
+<ownerDesignName>schema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="5A6162C7-EB6D-6CFC-BF59-B94DAD8C22CE">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-06 17:38:25 UTC</createdTime>
+<generatorID>E014A8C0-4337-9F20-0875-D54CFC814E1F</generatorID>
+<ownerDesignName>schema</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="contact_no" id="FB9B652D-CF0C-09A5-D1D8-F2A0DDF3CB23">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-06 17:38:25 UTC</createdTime>
+<generatorID>C260A061-1B5C-0B24-240B-9664A3C1035F</generatorID>
+<ownerDesignName>schema</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B7F00904-F729-CF71-F436-41F7C477054A" name="Driver_PK">
+<createdBy>Premkumar Manoharan</createdBy>
+<createdTime>2021-01-06 17:38:25 UTC</createdTime>
+<generatorID>0F02E603-2700-7291-9963-40D9E2924D89</generatorID>
+<ownerDesignName>schema</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC62D09E-F709-6355-78F3-774E3C4ECFB8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
